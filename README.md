@@ -1,5 +1,5 @@
 # GenBeamJoint: Controllable diffusion framework for generating realistic Failure images of RC beam–column joints using geometry-conditioned guidance.
-![main figure](GenBeam_Preview.pdf)
+![main figure](GenBeam_Preview.png)
 
 ## Inference
 
