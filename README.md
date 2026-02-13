@@ -34,6 +34,34 @@ conda env create -f environment.yml
 conda activate beamgen
 ```
 
+### Controlled Generation (Using Edge Images)
+To generate sample based on edge image, use the following command. You should provide path to the edge image or to dir of edge images.
+
+Single sample generation
+
+```
+python inference.py \
+  --config configs/v1-inference.yaml \
+  --ckpt models/rc-beam-base-pretrained.ckpt \
+  --adapter models/adapter-best.ckpt \
+  --input data/test_edges/beam_sketch.png \
+  --label B \
+  --output results
+```
+
+Batch generation
+
+```
+python inference.py \
+  --config configs/v1-inference.yaml \
+  --ckpt models/rc-beam-base-pretrained.ckpt \
+  --adapter models/adapter-best.ckpt \
+  --input data/dataset_edges/ \
+  --label BJ \
+  --n 5 \
+  --output results_batch_run
+```
+
 ## References
 
 This work builds upon the following repositories:
