@@ -40,4 +40,4 @@ pip install -r requirements.txt
 This work builds upon the following repositories:
 
 - [stable-diffusion](https://github.com/CompVis/stable-diffusion/)
-- [T2I-Adapter]([https://github.com/lllyasviel/ControlNet](https://github.com/TencentARC/T2I-Adapter)](https://github.com/TencentARC/T2I-Adapter))
+- [T2I-Adapter](https://github.com/TencentARC/T2I-Adapter)
