@@ -27,10 +27,11 @@ cd GenBeamJoint
 ```
 
 2. Set Up Your Environment
-Install all the necessary Python packages using the requirements.txt file.
+Install all the necessary Python packages using the environment.yml file and activate the environment.
 
 ```
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate beamgen
 ```
 
 ## References
